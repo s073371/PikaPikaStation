@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: mplus-1p-light;
+	src: url('http://mplus-fonts.sourceforge.jp/webfonts/mplus-1p-light.ttf') format("truetype");
+}
+@font-face {
+	font-family: mplus-1p-regular;
+	src: url('http://mplus-fonts.sourceforge.jp/webfonts/mplus-1p-regular.ttf') format("truetype");
+}
+
+/*-------------------------------------------------------------------------
+	Init
+/*-----------------------------------------------------------------------*/
+* {
+  font-family: mplus-1p-regular;
+	font-size:14px;
+	font-weight:normal;
+  letter-spacing:0.6px;
+	margin:0;
+	padding:0;
+  color:#1d1d1d;
+}
+
+html {
+	overflow-y:scroll;
+	word-break:break-all;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+
+ol, ul {
+	list-style:none;
+}
+
+blockquote, q {
+	quotes:none;
+}
+
+:focus {
+	outline:0;
+}
+
+ins {
+	text-decoration:none;
+}
+
+del {
+	text-decoration:line-through;
+}
+
+table {
+	
+}
+
+img {
+	border:0;
+	vertical-align:bottom;
+}
+
+address {
+	font-style:normal;
+}
+
+/*-------------------------------------------------------------------------
+	Setup
+/*-----------------------------------------------------------------------*/
+body {
+	color:#000;
+	font-size:80%;
+}
+
+p, li, dt, dl {
+	line-height:1.6;
+	letter-spacing:0.5px;
+}
+
+strong {
+	font-weight:bold;
+}
+
+em {
+	font-style:normal;
+}
+
+/*-------------------------------------------------------------------------
+	Anchor
+/*-----------------------------------------------------------------------*/
+a:link {
+	color:#000;
+	text-decoration:none;
+}
+
+a:visited {
+	color:#000;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#000;
+	text-decoration:none;
+}
+
+/*-------------------------------------------------------------------------
+	Clearfix
+/*-----------------------------------------------------------------------*/
+div,ul,dl {
+	zoom:1;
+}
+	
+	div:after,
+	ul:after,
+	dl:after{
+		content:"";
+		display: block;
+		clear:both;
+		visibility:hidden;
+	}
